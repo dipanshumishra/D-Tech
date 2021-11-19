@@ -20,6 +20,14 @@ body {
 }
 
 
+@media (max-width: 991px){
+    #header{
+        margin-top: -10vh!important;
+    }
+}
+
+
+
 .resume-btn{
        margin-right: 16px;
 }
