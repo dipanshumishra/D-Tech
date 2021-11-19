@@ -47,8 +47,7 @@ body {
 }
 
 #header .brand-name{
-    color: #3498db!important;
-
+    color: #bc2a8d!important;
 }
 
 
@@ -118,7 +117,7 @@ body {
 
 #intro p{
     font-weight: lighter;
-    color: #000;
+    color: #C4C3C3;
     word-spacing: 3px;
 
 }

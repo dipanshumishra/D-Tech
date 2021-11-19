@@ -47,7 +47,7 @@ body {
 
 
 #header h2{
-    color: #484848;
+    color: #C4C3C3!important;
     font-size: 24px;
 }
 
@@ -63,6 +63,10 @@ body {
     font-weight:bold!important;
     border: 2px solid #3498db;
     text-decoration: none;
+}
+
+#header h4{
+    color: grey!important;
 }
 
 
@@ -87,7 +91,7 @@ body {
 }
 
 .list li{
-   color: #484848;
+    color: #C4C3C3;
     font-size: 18px;
 }
 
