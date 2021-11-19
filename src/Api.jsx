@@ -12,10 +12,10 @@ const Api = [{
       link:port,       
       desc:"This was my previous Portfolio Design which i created using HTML5, CSS3, Bootstrap4"
     },
-    {
-      name:"Photography",
-      link:photo,       
-      desc:"This was my Photography Website Design which i created using HTML5, CSS3, Bootstrap4"
+     {
+      name:"Covid Scenario",
+      link:covid,       
+      desc:"This was India's Statewise Data Website Design which i created using React.js"
     },
     {
       name:"NGO Website",
@@ -28,14 +28,14 @@ const Api = [{
       desc:"This was India's Covid Scenario Design which i created using React.js, HTML5, CSS3, Bootstrap4"
     },
     {
+      name:"Photography",
+      link:photo,       
+      desc:"This was my Photography Website Design which i created using HTML5, CSS3, Bootstrap4"
+    },
+    {
       name:"E-Commerce",
       link:dstore,       
       desc:"This was E-Commerce Store Website Design which i created using HTML5, CSS3, Bootstrap4"
-    },
-    {
-      name:"Covid Scenario",
-      link:covid,       
-      desc:"This was India's Statewise Data Website Design which i created using React.js"
     }
 
 

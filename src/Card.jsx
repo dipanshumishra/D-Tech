@@ -10,17 +10,17 @@ const  Card = () =>{
             
             
 
-           <div className="container service-div mt-5 pt-5 text-center mb-5 mb-sm-0">
+           <div className="container service-div mt-2 pt-5 text-center mb-5 mb-sm-0">
               <h1>MY Recent <span>Works</span></h1>
               <p id="paragraph">Here are few projects I've worked on recently.</p>
-              <div className="row  mx-auto ">
+              <div className="row mb-5">
                  
                   {Api.map((val)=>{
                    const {name,link,desc} = val;
                     return (
                              <>
-                                <div className=" col-md-6 col-lg-4 col-12 image sm-mt-5">
-                                  <div class="card m-md-5">
+                                <div className=" col-md-6 col-lg-4 col-12 image my-3">
+                                  <div class="card mx-auto">
                                      <img class="card-img-top" src={link} alt="Card image cap"/>
                                       <div class="card-body">
                                           <h5 class="card-title">{name}</h5>

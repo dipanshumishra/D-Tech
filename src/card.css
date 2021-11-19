@@ -32,10 +32,21 @@ img{
   width: 18rem;
 }
 
+@media (max-width:989px){
+  .card{
+    width: 15rem!important;
+  }
+
+
+
+}
+
 
 .card:hover{
   transform:scale(1.02);
 }
+
+
 
 img{
   border-top-left-radius : 20px!important;

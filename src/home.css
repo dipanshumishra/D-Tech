@@ -118,7 +118,7 @@ body {
 }
 
 #intro span{
-    color: crimson;
+    color: #B54359;
 }
 
 #intro .common-container{
@@ -153,22 +153,26 @@ body {
 
 
 .findme span{
-    color: crimson;
+    color: #bc2a8d;
 }
 .findme .facebook,.twitter,.insta,.linkedin{
     font-size: 33px;
 }
 
 .findme .facebook{
- color: blue;
+ color:  #3b5998;
+}
+
+.findme .twitter{
+    color: #00aced;
 }
 
 .findme .insta{
-    color: crimson;
+    color:  #bc2a8d;
 }
 
 .findme .linkedin{
-    color: #000;
+    color:  #007bb6;
 }
 
 #footer{
@@ -176,7 +180,7 @@ body {
 }
 
 #footer p{
-    color: #fff;
+    color: #C4C3C3;
     font-weight: lighter;
     color: 19px;
     word-spacing: 2px;
