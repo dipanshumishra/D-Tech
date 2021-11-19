@@ -1,0 +1,33 @@
+
+
+
+
+.resumebtn{
+    font-size: 20px;
+    letter-spacing: 4px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    background-color: #fff!important;
+    font-weight:bold!important;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+.resumebtn:hover{
+	 background-color: #3498db!important;
+    color: #fff;
+}
+
+.iconresume{
+	color: #000!important;
+	font-weight: 500!important;
+}
+
+.resume-pdf{
+    position: relative;
+	height: 100vh!important;
+	width: 100%!important;
+}

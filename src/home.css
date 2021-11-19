@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+body {
+ background-image: none;
+}
+
+
+
+
+
+#header{ 
+    background-image: url('./Images/back.jpg');
+    background-repeat: no-repeat;
+    /* clip-path: polygon(100% 0, 100% 100%, 30% 70%, 0 100%, 0 0);*/
+    background-size:cover;
+}
+
+
+.resume-btn{
+       margin-right: 16px;
+}
+
+
+.last-btn{
+    margin-bottom: 30px;
+}
+
+#header h1{
+         margin: 0 0 10px 0;
+         font-size: 40px;
+         color: grey;
+         font-weight: lighter;
+}
+
+#header .brand-name{
+    color: #3498db!important;
+
+}
+
+
+#header h2{
+         font-weight: lighter;
+    color: #484848;
+    font-size: 24px;
+}
+
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    font-weight:bold!important;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+
+#header .btn-get-started:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+
+
+.header-img{
+    text-align: right;
+}
+
+.header-img img {
+       height: 80%;
+       margin-top: 5vh;
+}
+
+
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+
+     0% {
+         transform: translateY(10px);
+     }
+
+     100% {
+         transform: translateY(-10px);
+     }
+}
+
+@keyframes up-down {
+
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+#intro p{
+    font-weight: lighter;
+    color: #000;
+    word-spacing: 3px;
+
+}
+
+#intro span{
+    color: crimson;
+}
+
+#intro .common-container{
+    margin-top: 5vh;
+}
+
+
+.avtar-img img {
+                  background-color: crimson;
+                  border-radius: 0vh 0vh 40vh 40vh;
+                  height: 70vh;
+
+           }
+@media (max-width:477px){
+    .avtar-img img {
+         height: 40vh;
+    }
+}
+
+
+.para{
+    margin-top: -25vh;
+}
+
+
+@media (max-width: 991px)
+{
+    .para{
+        margin-top: 0px;
+    }
+}
+
+
+.findme span{
+    color: crimson;
+}
+.findme .facebook,.twitter,.insta,.linkedin{
+    font-size: 33px;
+}
+
+.findme .facebook{
+ color: blue;
+}
+
+.findme .insta{
+    color: crimson;
+}
+
+.findme .linkedin{
+    color: #000;
+}
+
+#footer{
+    background-color: #000033;
+}
+
+#footer p{
+    color: #fff;
+    font-weight: lighter;
+    color: 19px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #4f546c;
+   background-image: url('./Images/back.jpg');
+    background-repeat: no-repeat;
+    margin-top: 10vh; 
+    /* clip-path: polygon(100% 0, 100% 100%, 30% 70%, 0 100%, 0 0);*/
+    background-size:cover;
+}
+
+
+
+
+img{
+  height: 40vh;
+}
+
+.card{
+  border-radius: 20px!important;
+  box-shadow: 0 2px 8px #fff!important;
+  width: 18rem;
+}
+
+
+.card:hover{
+  transform:scale(1.02);
+}
+
+img{
+  border-top-left-radius : 20px!important;
+  border-top-right-radius : 20px!important;
+}
+
+.sm-mt-5{
+  margin-top: 20px;
+}
+
+.service-div span{
+  font-family: 'Comforter', cursive!important;
+    color: crimson;
+}
+
+.service-div h1{
+  font-family: 'Comforter', cursive!important;
+   color: #fff;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+ #paragraph{
+  color: #fff;
+  font-weight: lighter;
+}
+
+
+
+.card-body{
+  background-color: #5d8aa8;
+  border-bottom-left-radius: 20px!important;
+  border-bottom-right-radius: 20px!important;
+}
+
+.card-title{
+  color: #fff;
+}
+
+.card-text{
+  align-items: left;
+  color: #f0ffff;
+  text-align: left!important;
+}
